@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'stripe'
 require_relative 'key_reader'
 
