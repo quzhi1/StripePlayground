@@ -51,3 +51,6 @@ build-iPhoneSimulator/
 
 # api keys
 apiKeys.txt
+
+# Executable
+bin/

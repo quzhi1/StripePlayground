@@ -2,11 +2,17 @@ GEM
   remote: https://rubygems.org/
   specs:
     connection_pool (2.2.2)
+    debase (0.2.4)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.5)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     multipart-post (2.1.1)
     net-http-persistent (3.0.1)
       connection_pool (~> 2.2)
+    rake (12.3.2)
+    ruby-debug-ide (0.7.0)
+      rake (>= 0.8.1)
     stripe (4.17.0)
       faraday (~> 0.13)
       net-http-persistent (~> 3.0)
@@ -15,6 +21,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  debase
+  ruby-debug-ide
   stripe
 
 BUNDLED WITH
